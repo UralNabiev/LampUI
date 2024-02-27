@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		AF0143812B8DF25600AF5E6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0143802B8DF25600AF5E6C /* AppDelegate.swift */; };
-		AF0143832B8DF25600AF5E6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0143822B8DF25600AF5E6C /* SceneDelegate.swift */; };
-		AF0143852B8DF25600AF5E6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0143842B8DF25600AF5E6C /* ViewController.swift */; };
-		AF0143882B8DF25600AF5E6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0143862B8DF25600AF5E6C /* Main.storyboard */; };
 		AF01438A2B8DF25A00AF5E6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF0143892B8DF25A00AF5E6C /* Assets.xcassets */; };
 		AF01438D2B8DF25A00AF5E6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF01438B2B8DF25A00AF5E6C /* LaunchScreen.storyboard */; };
 		AF0143982B8DF25A00AF5E6C /* LampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0143972B8DF25A00AF5E6C /* LampUITests.swift */; };
 		AF0143A22B8DF25A00AF5E6C /* LampUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0143A12B8DF25A00AF5E6C /* LampUIUITests.swift */; };
 		AF0143A42B8DF25A00AF5E6C /* LampUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0143A32B8DF25A00AF5E6C /* LampUIUITestsLaunchTests.swift */; };
+		AF0143B22B8DF39A00AF5E6C /* LampVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0143B02B8DF39A00AF5E6C /* LampVC.swift */; };
+		AF0143B32B8DF39A00AF5E6C /* LampVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF0143B12B8DF39A00AF5E6C /* LampVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +37,6 @@
 /* Begin PBXFileReference section */
 		AF01437D2B8DF25600AF5E6C /* LampUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LampUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF0143802B8DF25600AF5E6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF0143822B8DF25600AF5E6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AF0143842B8DF25600AF5E6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AF0143872B8DF25600AF5E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF0143892B8DF25A00AF5E6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF01438C2B8DF25A00AF5E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF01438E2B8DF25A00AF5E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +45,8 @@
 		AF01439D2B8DF25A00AF5E6C /* LampUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LampUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF0143A12B8DF25A00AF5E6C /* LampUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampUIUITests.swift; sourceTree = "<group>"; };
 		AF0143A32B8DF25A00AF5E6C /* LampUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF0143B02B8DF39A00AF5E6C /* LampVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampVC.swift; sourceTree = "<group>"; };
+		AF0143B12B8DF39A00AF5E6C /* LampVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LampVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				AF0143802B8DF25600AF5E6C /* AppDelegate.swift */,
-				AF0143822B8DF25600AF5E6C /* SceneDelegate.swift */,
-				AF0143842B8DF25600AF5E6C /* ViewController.swift */,
-				AF0143862B8DF25600AF5E6C /* Main.storyboard */,
 				AF0143892B8DF25A00AF5E6C /* Assets.xcassets */,
 				AF01438B2B8DF25A00AF5E6C /* LaunchScreen.storyboard */,
 				AF01438E2B8DF25A00AF5E6C /* Info.plist */,
+				AF0143B02B8DF39A00AF5E6C /* LampVC.swift */,
+				AF0143B12B8DF39A00AF5E6C /* LampVC.xib */,
 			);
 			path = LampUI;
 			sourceTree = "<group>";
@@ -233,7 +230,7 @@
 			files = (
 				AF01438D2B8DF25A00AF5E6C /* LaunchScreen.storyboard in Resources */,
 				AF01438A2B8DF25A00AF5E6C /* Assets.xcassets in Resources */,
-				AF0143882B8DF25600AF5E6C /* Main.storyboard in Resources */,
+				AF0143B32B8DF39A00AF5E6C /* LampVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +255,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF0143852B8DF25600AF5E6C /* ViewController.swift in Sources */,
+				AF0143B22B8DF39A00AF5E6C /* LampVC.swift in Sources */,
 				AF0143812B8DF25600AF5E6C /* AppDelegate.swift in Sources */,
-				AF0143832B8DF25600AF5E6C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AF0143862B8DF25600AF5E6C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF0143872B8DF25600AF5E6C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AF01438B2B8DF25A00AF5E6C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,7 +435,7 @@
 				INFOPLIST_FILE = LampUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,7 +463,7 @@
 				INFOPLIST_FILE = LampUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
